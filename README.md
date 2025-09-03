@@ -31,6 +31,21 @@ This programming exercise is designed to develop proficiency in data manipulatio
 
 ## 💡 Examples w/ Explanation
 
+### 01 🧠 Problem 1
+
+```python
+
+```
+#### More Detailed Code Explanation:
+
+
+### 02 🧮 Problem 2
+
+```python
+
+```
+#### More Detailed Code Explanation:
+
 ---
 
 ##### *- 🌱 "The future belongs to those who believe in the beauty of their dreams."*
@@ -38,3 +53,29 @@ This programming exercise is designed to develop proficiency in data manipulatio
 ---
 
 ### 📝 Commitments
+- **v1.0** – Initial draft  
+  - Loaded CSV file into pandas DataFrame
+  - Displayed first and last 5 rows
+  - Basic checks with print statements
+
+- **v1.1** – Data Loading
+  - Applied slicing and indexing for specific queries
+
+- **v1.2** – Final Touches 
+  - Cleaned up variable names and comments
+  - Improved formatting for readability
+  - Final review of code and README layout
+
+
+
+
+
+
+
+
+
+
+
+
+
+

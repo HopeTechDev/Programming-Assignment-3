@@ -24,8 +24,8 @@ This programming exercise is designed to develop proficiency in data manipulatio
 2. Open a terminal or command prompt
 3. Navigate to the folder with your .py files
 4. Run the scripts using:
-   - python SAEZ_Pandas-P1.py
-   - python SAEZ_Pandas-P2.py
+   - *python SAEZ_Pandas-P1.py*
+   - *python SAEZ_Pandas-P2.py*
 
 ---
 

@@ -58,8 +58,39 @@ p1
 
 ```python
 
+import pandas as pd  # Import the pandas library
+cars = pd.read_csv("cars.csv")  # Load the .csv file into a DataFrame named cars
+
 ```
-#### More Detailed Code Explanation:
+- The dataset cars.csv is read and stored in a DataFrame called cars.
+
+```python
+
+cars.iloc[:, ::2].head()
+
+```
+- .iloc[:, ::2] selects all rows (:) but only every 2nd column starting from the first one (::2).
+- .head() shows the first 5 rows of those selected columns.
+  
+
+```python
+
+cars.loc[cars['Model'] == 'Mazda RX4']
+
+```
+- .loc[...] is used to filter rows.
+
+- This returns the rows where the Model column is exactly 'Mazda RX4'.
+  
+
+```python
+
+cars.loc[cars['Model'] == 'Camaro Z28', ['Model', 'cyl']]
+
+```
+- Filters the DataFrame for rows where Model = 'Camaro Z28'.
+
+- Returns only the Model and cyl (cylinders) columns.
 
 ---
 

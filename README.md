@@ -44,7 +44,14 @@ p1 = pd.concat([cars.head(), cars.tail()]) #display the first 5 rows and last 5 
 p1
 
 ```
-#### More Detailed Code Explanation:
+
+#### Code Explanation:
+
+- cars = pd.read_csv("cars.csv") → loads the dataset cars.csv into a Pandas DataFrame named cars.
+- cars.head() → returns the first 5 rows of the dataset.
+- cars.tail() → returns the last 5 rows of the dataset.
+- pd.concat([...]) → combines both sets of rows into a single DataFrame.
+- The result is stored in a new DataFrame called p1
 
 
 ### 02 🧮 Problem 2

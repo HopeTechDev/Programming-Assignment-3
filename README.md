@@ -62,15 +62,15 @@ import pandas as pd  # Import the pandas library
 cars = pd.read_csv("cars.csv")  # Load the .csv file into a DataFrame named cars
 
 ```
-- The dataset cars.csv is read and stored in a DataFrame called cars.
+ dataset cars.csv → read and stored in a DataFrame called cars.
 
 ```python
 
 cars.iloc[:, ::2].head()
 
 ```
-- .iloc[:, ::2] selects all rows (:) but only every 2nd column starting from the first one (::2).
-- .head() shows the first 5 rows of those selected columns.
+- .iloc[:, ::2] → selects all rows (:) but only every 2nd column starting from the first one (::2).
+- .head() → shows the first 5 rows of those selected columns.
   
 
 ```python
@@ -78,7 +78,7 @@ cars.iloc[:, ::2].head()
 cars.loc[cars['Model'] == 'Mazda RX4']
 
 ```
-- .loc[...] is used to filter rows.
+- .loc[...] →  used to filter rows.
 
 - This returns the rows where the Model column is exactly 'Mazda RX4'.
   
@@ -108,18 +108,19 @@ cars['Model'].isin(models)
 - Checks if each row’s Model is one of the values in the tuple.
 
 - Returns True for matching rows, False otherwise.
-  
+
+
 ```python
+
 
 cars.loc[..., ['Model','cyl','gear']]
 
 ```
 
-- .loc[...] selects the rows where the condition is True.
+- .loc[...] → selects the rows where the condition is True.
 
-- ['Model','cyl','gear'] specifies which columns to return.
+- ['Model','cyl','gear'] → specifies which columns to return.
 
-```
 
 ---
 

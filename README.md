@@ -94,6 +94,35 @@ cars.loc[cars['Model'] == 'Camaro Z28', ['Model', 'cyl']]
 
 ---
 
+```python
+
+models = (...)
+
+```
+- Creates a tuple containing the car models you want to filter.
+
+```python
+
+cars['Model'].isin(models)
+
+```
+
+- Checks if each row’s Model is one of the values in the tuple.
+
+- Returns True for matching rows, False otherwise.
+  
+```python
+
+cars.loc[..., ['Model','cyl','gear']]
+
+```
+
+- .loc[...] selects the rows where the condition is True.
+
+- ['Model','cyl','gear'] specifies which columns to return.
+
+```
+
 ##### *- 🌱 "The future belongs to those who believe in the beauty of their dreams."*
 
 ---

@@ -92,8 +92,6 @@ cars.loc[cars['Model'] == 'Camaro Z28', ['Model', 'cyl']]
 
 - Returns only the Model and cyl (cylinders) columns.
 
----
-
 ```python
 
 models = (...)
@@ -122,6 +120,8 @@ cars.loc[..., ['Model','cyl','gear']]
 - ['Model','cyl','gear'] specifies which columns to return.
 
 ```
+
+---
 
 ##### *- 🌱 "The future belongs to those who believe in the beauty of their dreams."*
 
